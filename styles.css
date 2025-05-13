@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Button Hover Animation */
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Image Animation */
+#animatedImage {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out, opacity 1s ease;
+}
+
+/* Animating image when triggered */
+.animate-image {
+    transform: rotate(360deg);
+    opacity: 0.5;
+}
